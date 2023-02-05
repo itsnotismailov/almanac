@@ -30,7 +30,7 @@ export const Users = ({ items, isLoading , searchValue, onChangeSearchValue, inv
 
           }).map((obj) => (
             <User
-            onClickInvite={onClickInvite}
+            // onClickInvite={onClickInvite}
             // isInvited={invites.includes(obj.id)}
             key={obj.id} 
             {... obj}/>
